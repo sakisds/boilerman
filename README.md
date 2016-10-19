@@ -36,6 +36,7 @@ Each template is made of one definition file (YAML) and one or more mustache tem
 ```
 
 Here is the list of supported attributes:
+
 | Attribute  | Optional? | Default | Description | 
 | ---------- | --------- | ------- | ----------- |
 | title      | No        |         | This file's title. It's not significant in any way. |
@@ -44,6 +45,7 @@ Here is the list of supported attributes:
 | variables  | Yes       | Empty   | The list of variables to replace. |
 
 And each variable's attributes:
+
 | Attribute   | Optional? | Default | Description | 
 | ----------- | --------- | ------- | ----------- |
 | name        | No        |         | The variable's name. For example, if the name is 'title' you should type `{{ title }}` in your template. |
