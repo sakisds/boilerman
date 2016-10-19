@@ -1,0 +1,15 @@
+---
+  title: "HTML"
+  filepath: "webpage.html"
+  delimiters: "{{ }}"
+  variables:
+    - {name: "name", description: "Who are we referring to?"}
+    - {name: "title", description: "Page title"}
+...
+---
+  title: "CSS"
+  filepath: "webpage.css"
+  delimiters: "<< >>"
+  variables:
+    - {name: "text-color", description: "Color of the text"}
+    - {name: "background-color", description: "Color of the background"}

@@ -1,0 +1,8 @@
+---
+  title: "A sample text file"
+  filepath: "textfile.txt"
+  delimiters: "{{ }}"
+  variables:
+    - {name: "name", description: "Who are we referring to?"}
+    - {name: "time", description: "Time of day?"}
+...
